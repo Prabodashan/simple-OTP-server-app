@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
 app.post("/login", (req, res) => {
   console.log(req.body);
-  res.send("Hello World!");
+  res.send(req.body);
 });
 
 // Error route
